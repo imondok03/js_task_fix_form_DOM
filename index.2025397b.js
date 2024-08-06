@@ -1,0 +1,2 @@
+for(var e=document.getElementsByTagName("input"),t=0;t<e.length;t++){var r=e[t],a=r.getAttribute("id"),l=r.getAttribute("name"),n=document.createElement("label");n.setAttribute("class","field-label"),n.setAttribute("for",a),n.textContent=i(l),r.setAttribute("placeholder",i(l)),r.before(n)}function i(e){var t=e.match(/[A-Z]/g);return(e[0].toUpperCase()+e.slice(1,e.length)).replace(t," "+t)}
+//# sourceMappingURL=index.2025397b.js.map
